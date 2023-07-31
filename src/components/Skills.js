@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg"
+import softwareImage from "../assets/img/softwareIMG.svg"
 import meter2 from "../assets/img/meter2.svg"
 import meter3 from "../assets/img/meter3.svg"
 import colorSharp from "../assets/img/color-sharp.png"
@@ -41,22 +41,27 @@ export const Skills = () => {
                          <Col>
                          <div className="skill-bx">
                               <h2>
-                                   Why am I Cool?
+                                   A little about me...
                               </h2>
-                              <p>Here are some of my Skills</p>
+                              <p>Software Developer, Athlete, Gamer</p>
                               <Carousel responsive={responsive} infinite={true} className="skill-silder">
                                    <div className="item">
-                                        <img src={meter1}/>
-                                             <h5>Web Development</h5>
+                                        <img src={softwareImage}/>
+                                             <h5>Software Developer</h5>
                                    </div>
                                    <div className="item">
                                         <img src={meter2}/>
-                                             <h5>Backend Developer</h5>
+                                             <h5>Athlete</h5>
                               
                                    </div>
                                    <div className="item">
                                         <img src={meter3}/>
-                                             <h5>Graphic Design</h5>
+                                             <h5>Gamer</h5>
+                                   </div>
+
+                                   <div className="item">
+                                        <img src={meter3}/>
+                                             <h5>Graphic Designer</h5>
                                    </div>
                     
                               </Carousel>

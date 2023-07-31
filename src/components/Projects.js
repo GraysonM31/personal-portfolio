@@ -28,7 +28,7 @@ export const Projects = () =>{
           },
      
           {
-               title: "",
+               title: "Covid-19 Screening form automation",
                description: "Description3",
                imgUrl: projImg3,
           },
@@ -42,18 +42,18 @@ export const Projects = () =>{
                     <Row>
                          <Col>
                               <h2>Projects</h2>
-                              <p>text text text text text text text text text text text</p>
+                              <p>Here are a few of the projects that I have been working on!</p>
                               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                    <Nav variant='pills' className="nav-pills mb-5 justify-content-center align-items-center" id = "pills-tab">
-                                        <Nav.Item>
+                                        {/* <Nav.Item>
                                              <Nav.Link eventKey="first">Tab One</Nav.Link>
-                                        </Nav.Item>
-                                        <Nav.Item>
+                                        </Nav.Item> */}
+                                        {/* <Nav.Item>
                                              <Nav.Link eventKey="second">Tab Two</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
                                              <Nav.Link eventKey="Third">Tab Three</Nav.Link>
-                                        </Nav.Item>
+                                        </Nav.Item> */}
                                    </Nav>
                                    <Tab.Content>
                                         <Tab.Pane eventKey="first">
@@ -70,8 +70,6 @@ export const Projects = () =>{
                                                }
                                              </Row>
                                         </Tab.Pane>
-                                        <Tab.Pane eventKey="second">Loren Ispsum</Tab.Pane>
-                                        <Tab.Pane eventKey="third">Loren Ispsum</Tab.Pane>
                                    </Tab.Content>
                               </Tab.Container>
                          </Col>

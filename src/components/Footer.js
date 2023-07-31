@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/Logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon2 from "../assets/img/github-mark-white.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
@@ -30,7 +30,7 @@ export const Footer = () => {
             <a href="https://www.linkedin.com/in/grayson-mongru/">
               <img src={navIcon1} alt="" />
             </a>
-            <a href="#">
+            <a href="https://github.com/GraysonM31">
               <img src={navIcon2} alt="" />
             </a>
             <a href="#">
