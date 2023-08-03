@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle, JustifyLeft } from "react-bootstrap-icons";
 import headerImg from "../assets/img/memoji.PNG";
 import { useState, useEffect } from "react";
 import Spline from '@splinetool/react-spline';
@@ -15,8 +15,9 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            {/* <span className="tagline">Welcome to my Website!</span> */}
-            <h1>{"Hi, I'm Grayson 👋"} </h1>
+            {/* <span className="tagline">Did you pray today? cuz if you didn't...</span> */}
+            <h1>{"Hi👋,"}</h1>
+            <h2>{"I'm Grayson Mongru"}</h2>
             <span className="wrap">{""}</span>
             <p>
               As a passionate software engineering student, I am driven by the endless possibilities of technology, and I strive to capture my creativity to create new and exciting projects

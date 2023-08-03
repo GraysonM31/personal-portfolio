@@ -33,7 +33,7 @@ export const Footer = () => {
             <a href="https://github.com/GraysonM31">
               <img src={navIcon2} alt="" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/graysonmongru/">
               <img src={navIcon3} alt="" />
             </a>
           </div>

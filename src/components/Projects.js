@@ -4,9 +4,10 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import peach from "../assets/img/peach.png"
 
 import {Col, Row, Tab, Container} from "react-bootstrap"
-import projImg1 from "../assets/img/project-img1.png"
+import projImg1 from "../assets/img/caffeine.svg"
 import projImg2 from "../assets/img/project-img2.png"
-import projImg3 from "../assets/img/project-img3.png"
+import projImg3 from "../assets/img/selenium_logo.png"
+import placeholder from  "../assets/img/placeholder.png"
 
 
 
@@ -17,20 +18,20 @@ export const Projects = () =>{
      const projectsArr = [
           {
                title: "Molecule Modeling Project",
-               description: "Description1",
-               imgUrl: projImg1,
+               description: "Done as part of my CIS 2750 Software Integration Course",
+               // imgUrl: projImg1,
           },
      
           {
                title: "Covid-19 Data Project",
-               description: "Description2",
-               imgUrl: projImg2,
+               description: "Done as part of my CIS 2250 Software Design II Course",
+               // imgUrl: placeholder,
           },
      
           {
                title: "Covid-19 Screening form automation",
-               description: "Description3",
-               imgUrl: projImg3,
+               description: "Personal project",
+               // imgUrl: projImg3,
           },
      ]
 
