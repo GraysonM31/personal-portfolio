@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const UnderConstructionPage = () => {
+
+export const UnderConstructionPage = () => {
   return (
     <div className="container">
       <div className="row justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
@@ -15,4 +16,3 @@ const UnderConstructionPage = () => {
   );
 };
 
-export default UnderConstructionPage;

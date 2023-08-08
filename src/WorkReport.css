@@ -1,0 +1,58 @@
+/* WorkReport.css */
+
+.container {
+     max-width: 800px;
+   }
+   
+   .workform-Header {
+     background-color: #007bff;
+     color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+   }
+   
+   .workform-Header h1 {
+     font-size: 2.5rem;
+     margin: 0;
+   }
+   
+   .mt-4 {
+     margin-top: 1.5rem;
+   }
+   
+   .mt-5 {
+     margin-top: 3rem;
+   }
+   
+   h2 {
+     font-size: 1.8rem;
+     margin-bottom: 1rem;
+   }
+   
+   p {
+     font-size: 1.1rem;
+   }
+   
+   /* Style the links in the text */
+   a {
+     color: #007bff;
+     text-decoration: underline;
+   }
+   
+   /* Style the links in the header (NavBar) */
+   .navbar-brand {
+     color: #007bff;
+     font-size: 1.8rem;
+     font-weight: bold;
+   }
+   
+   /* Apply some margin to the footer */
+   .footer {
+     margin-top: 2rem;
+   }
+   
+   /* Optional: Add a box shadow to the container for depth */
+   .container {
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   

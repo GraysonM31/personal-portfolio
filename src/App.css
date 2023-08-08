@@ -561,7 +561,99 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-  
+/* work term css */
+
+/************ Banner Css ************/
+.banner-workterm {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  /* background-image: url('./assets/img/background\ purple.jpeg'); */
+  background-color: #282c34;
+  background-position: top center;
+  background-repeat: repeat-x;
+}
+
+.banner-workterm  h1 {
+  font-size: 75px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+
+.banner-workterm  h2 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+}
+
+
+
+.banner-workterm  p {
+  color: #a8a7a7;
+  border: #fff;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner-workterm  button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner-workterm  button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner-workterm  button:hover svg {
+  margin-left: 25px;
+}
+
+.banner-workterm secondPicture{
+  justify-content: right;
+
+}
+
+
+
+
+/* .banner-workterm  img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+} */
+
+
+
+
 
 
 .App {
