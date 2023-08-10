@@ -97,7 +97,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #000000;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -280,6 +280,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner p {
   color: #a8a7a7;
   font-size: 18px;
+  text-align: center;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -389,14 +390,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+  opacity: 0; /* Initial opacity set to 0 */
+  animation: fade-in 1.5s ease-in-out 0.5s forwards; /* Animation */
 }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -426,7 +441,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #000000 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -458,7 +473,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #494949 -5.91%, #27c9e6 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -583,9 +598,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 
-
 .banner-workterm  h2 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -593,8 +607,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
   text-align: left;
 }
-
-
 
 .banner-workterm  p {
   color: #a8a7a7;
@@ -614,20 +626,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
-}
-.banner-workterm  button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-}
-.banner-workterm  button:hover svg {
-  margin-left: 25px;
-}
-
-.banner-workterm secondPicture{
-  justify-content: right;
-
 }
 
 

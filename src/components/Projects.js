@@ -1,93 +1,68 @@
-import Nav from 'react-bootstrap/Nav'
-import {ProjectCard} from "./ProjectCard"
-import colorSharp2 from "../assets/img/color-sharp2.png"
-import peach from "../assets/img/peach.png"
-
-import {Col, Row, Tab, Container} from "react-bootstrap"
-import projImg1 from "../assets/img/caffeine.svg"
-import projImg2 from "../assets/img/project-img2.png"
-import projImg3 from "../assets/img/selenium_logo.png"
-import placeholder from  "../assets/img/placeholder.png"
+import React from 'react';
+import { Container, Col, Row, Tab, Nav } from 'react-bootstrap';
+import { ProjectCard } from './ProjectCard'; // Assuming you have this component defined
+// import colorSharp2 from '../assets/img/color-sharp2.png';
+import logo1 from '../assets/img/chemistry.png';
+import logo2 from '../assets/img/automation.png';
+import logo3 from '../assets/img/data.png';
+// import logo4 from '../assets/img/web.png';
 
 
+export const Projects = () => {
+  const projectsArr = [
+    {
+      title: 'Molecule Modeling Project',
+      description: 'Full stack project to create custom SVG files of a Molecule from a given .SDF file',
+      imgUrl: logo1,
+    },
+    {
+      title: 'Covid-19 Data Project',
+      description: 'Using Pandas and Matplotlib libraries to extrapolate data about the Covid-19 pandemic from a CSV file',
+      imgUrl: logo2,
+    },
+    {
+      title: 'Covid-19 Screening Form Automation',
+      description: 'Using Selenium in python to automatically complete the University of Guelph Covid-19 screening form',
+      imgUrl: logo3,
+    },
+
+//     {
+//      title: 'Web Scraping Project',
+//      description: 'Personal project',
+//      imgUrl: logo4,
+//    },
 
 
-export const Projects = () =>{
+  ];
 
-
-     const projectsArr = [
-          {
-               title: "Molecule Modeling Project",
-               description: "Done as part of my CIS 2750 Software Integration Course",
-               // imgUrl: projImg1,
-          },
-     
-          {
-               title: "Covid-19 Data Project",
-               description: "Done as part of my CIS 2250 Software Design II Course",
-               // imgUrl: placeholder,
-          },
-     
-          {
-               title: "Covid-19 Screening form automation",
-               description: "Personal project",
-               // imgUrl: projImg3,
-          },
-     ]
-
-
-
-     return (
-          <section className = "project" id="project">
-               <Container>
-                    <Row>
-                         <Col>
-                              <h2>Projects</h2>
-                              <p>Here are a few of the projects that I have been working on!</p>
-                              <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                                   <Nav variant='pills' className="nav-pills mb-5 justify-content-center align-items-center" id = "pills-tab">
-                                        {/* <Nav.Item>
-                                             <Nav.Link eventKey="first">Tab One</Nav.Link>
-                                        </Nav.Item> */}
-                                        {/* <Nav.Item>
-                                             <Nav.Link eventKey="second">Tab Two</Nav.Link>
-                                        </Nav.Item>
-                                        <Nav.Item>
-                                             <Nav.Link eventKey="Third">Tab Three</Nav.Link>
-                                        </Nav.Item> */}
-                                   </Nav>
-                                   <Tab.Content>
-                                        <Tab.Pane eventKey="first">
-                                             <Row>
-                                               {
-                                                  projectsArr.map((project, index) => {
-                                                       return(
-                                                            <ProjectCard
-                                                                Key={index}
-                                                                {...project}
-                                                                />
-                                                       )
-                                                  })
-                                               }
-                                             </Row>
-                                        </Tab.Pane>
-                                   </Tab.Content>
-                              </Tab.Container>
-                         </Col>
-                    </Row>
-               </Container>
-               <img className='background-image-right' src={colorSharp2}/>
-          </section>
-
-
-     )
-
-
-
-}
-
-
-
-
-     
-
+  return (
+    <section className="project d-flex align-items-center justify-content-center" id="projects">
+      <Container>
+        <Row className="justify-content-center">
+          <Col>
+            <h2 className="text-center">Projects</h2>
+            <p className="text-center">Hover for more details</p>
+            <Tab.Container id="projects-tabs" defaultActiveKey="first">
+              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                {/* You can add more tabs here if needed */}
+              </Nav>
+              <Tab.Content>
+                <Tab.Pane eventKey="first">
+                  <Row className="justify-content-center">
+                    {projectsArr.map((project, index) => (
+                      <Col key={index} md={4} sm={6} className="mb-4">
+                        <ProjectCard {...project} />
+                      </Col>
+                    ))}
+                  </Row>
+                </Tab.Pane>
+                {/* You can add more Tab.Pane elements for different categories */}
+              </Tab.Content>
+            </Tab.Container>
+          </Col>
+        </Row>
+      </Container>
+      <img className="background-image-right" src={""} alt="Background" />
+    </section>
+  );
+};

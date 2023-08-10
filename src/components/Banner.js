@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle, JustifyLeft } from "react-bootstrap-icons";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/memoji.PNG";
-import { useState, useEffect } from "react";
-import Spline from '@splinetool/react-spline';
+// import { useState, useEffect } from "react";
+// import Spline from '@splinetool/react-spline';
 
 export const Banner = () => {
 

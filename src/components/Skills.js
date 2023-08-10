@@ -1,13 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import softwareImage from "../assets/img/softwareIMG.svg"
-import meter2 from "../assets/img/meter2.svg"
-import meter3 from "../assets/img/meter3.svg"
-import colorSharp from "../assets/img/color-sharp.png"
-import Cicon from "../assets/img/Icon/C-icon.svg"
-import htmlIcon from "../assets/img/Icon/html-icon.svg"
-import pythonIcon from "../assets/img/Icon/python-icon.svg"
+// import softwareImage from "../assets/img/softwareIMG.svg"
+// import meter2 from "../assets/img/meter2.svg"
+// import meter3 from "../assets/img/meter3.svg"
+// import colorSharp from "../assets/img/color-sharp.png"
+// import Cicon from "../assets/img/Icon/C-icon.svg"
+// import htmlIcon from "../assets/img/Icon/html-icon.svg"
+// import pythonIcon from "../assets/img/Icon/python-icon.svg"
 
 
 
@@ -49,28 +49,28 @@ export const Skills = () => {
                               <p>Here are some of my tech skills!</p>
                               <Carousel responsive={responsive} infinite={true} className="skill-silder">
                                    <div className="item">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python-logo"/>
                                              
                                    </div>
                                    <div className="item">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C-Logo"/>
 
                                    </div>
                                    <div className="item">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React-Logo"/>
                                    </div>
                                    <div className="item">
                                         
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java-Logo"/>
           
                                    </div>
                                    <div className="item">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" />
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium-Logo"/>
           
                                    </div>
                                    <div className="item">
                                         
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu-Logo"/>
                                    
                                    </div>
                               </Carousel>
