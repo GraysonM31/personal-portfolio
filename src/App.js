@@ -10,16 +10,9 @@ import { UnderConstructionPage } from './components/TempPage'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { WorkReport } from "./components/WorkReport"
 
-var underConstruction = false;
 
 function App() {
   return (
-    // Use conditional rendering with ternary operator or if-else statement
-    underConstruction ? (
-      <div className="ConstructionPage">
-        <UnderConstructionPage />
-      </div>
-    ) : (
       <div className="App">
         <Routes>
           <Route path='/' element={<> <NavBar/> <Banner />
@@ -29,7 +22,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    )
   );
 }
 
