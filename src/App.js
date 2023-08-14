@@ -10,18 +10,20 @@ import { UnderConstructionPage } from './components/TempPage'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { WorkReport } from "./components/WorkReport"
 
-
 function App() {
   return (
-      <div className="App">
+    <div className="App">
+      <Router>
+        <NavBar />
         <Routes>
-          <Route path='/' element={<> <NavBar/> <Banner />
-          <Skills />
-          <Projects /></>} />
+          <Route path='/personal-portfolio' element={<> <Banner />
+            <Skills />
+            <Projects /></>} />
           <Route path="/workreport" element={<WorkReport />} />
         </Routes>
         <Footer />
-      </div>
+      </Router>
+    </div>
   );
 }
 
