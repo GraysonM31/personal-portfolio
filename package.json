@@ -4,7 +4,8 @@
   "private": true,
 
 
-  "homepage": "https://GraysonM31.github.io",
+  "homepage": "https://GraysonM31.github.io/personal-portfolio",
+  
 
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
