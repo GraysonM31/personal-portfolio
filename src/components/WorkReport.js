@@ -1,61 +1,144 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import headerImg from "../assets/img/allianceIT-logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import placeholder from  "../assets/img/placeholder.png"
-// import { Skills } from './Skills'
+import sharePointImg from "../assets/img/sharepointHomePage.png";
+// import { WorkSkills } from './components/WorkSkills'
+import { WorkSkills } from './WorkSkills'
 
 
 
 export const WorkReport = () => {
-
-
-return (
-
-
-
-     //header
-
-     <section className="banner-workterm" id="workterm">
-       <Container>
-         <Row className="align-items-center">
-           <Col xs={12} md={6} xl={7}>
-             {/* <span className="tagline">Did you pray today? cuz if you didn't...</span> */}
-             <h1>{"Summmer 2023 Work Term Report,"}</h1>
-             <h2>{"AllianceIT - Project Manager intern"}</h2>
-             <span className="wrap">{""}</span>
-             <p>
-             </p>
-           </Col>
-           <Col xs={12} md={6} xl={5}>
-             <img src={headerImg} alt="header" />
-           </Col>
-         </Row>
-       </Container>
-
-       <Container className="mid-section">
-          <h3>Overview</h3>
-          <p className="paragraph">For my first co-op work term I had a postion with AllianceIT as a project manager intern where day to day I handled many PCO and project management task. During my work term I learned many skills..</p>
-          <Col xs={12} md={6} xl={5}>
-             <img src={placeholder} alt="header" />
+  return (
+    <section className="banner-workterm" id="workterm">
+      <Container>
+        <Row className="align-items-center">
+          <Col xs={12} md={6} xl={7}>
+            <h1>{"Summer 2023 Work Term Report"}</h1>
+            <h2>{"AllianceIT - Project Manager Intern"}</h2>
+            <span className="wrap"></span>
+            <p></p>
           </Col>
-       </Container>
-
-
-       <Container>
-          <h3>What I learned</h3>
-          <p className="paragraph">blah blah blah blah blah.</p>
           <Col xs={12} md={6} xl={5}>
-             <img className="secondPicture" src={placeholder} alt="header" />
+            <figure>
+              <img src={headerImg} alt="header" />
+            </figure>
+           
           </Col>
-       </Container>
+        </Row>
+      </Container>
 
-       {/* <Skills/> */}
+      <Container className="mid-section">
+        <Row>
+          <Col xs={12} md={6} xl={5}>
+            <figure>
+                <img src={sharePointImg} alt="header" />
+                <figcaption>SharePoint homepage for day to day work</figcaption>
+              </figure>
+          </Col>
+          <Col xs={12} md={6} xl={7}>
+            <Row>
+              <Col xs={12} md={6} className="mb-4">
+                <Card className="roundedp-4">
+                  <Card.Body>
+                    <h3>Overview</h3>
+                    <p className="paragraph">
+                    For my first Co-op work, I worked for AllianceIT as a project manager intern. Although this role did not directly relate to my area of study, it provided me with skills that will help me succeed in future positions. 
+                    </p>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col xs={12} md={6} className="mb-4">
+                <Card className="roundedp-4">
+                  <Card.Body>
+                    <h3>Job Description</h3>
+                    <p className="paragraph">
+                      Day to day I was responsible for PCO work. This included
+                      <ul>
+                        <li>
+                          Meeting Minutes
+                        </li>
+                        <li>
+                          Status Reporting
+                        </li>
+                        <li>
+                          Raid logs
+                        </li>
+                        <li>
+                          Attending all meetings
+                        </li>
+                      </ul>
+                    </p>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col xs={12} md={6} className="mb-4">
+                <Card className="roundedp-4">
+                  <Card.Body>
+                    <h3>Learning Goals</h3>
+                    <p className="paragraph">
+                    At the start of my work term, I established three clear learning objectives.                     
+                     <ul>
+                        <li>
+                        Asking more questions when necessary
+                        </li>
+                        <li>
+                        Improving my Excel skills
+                        </li>
+                        <li>
+                        Continuing to work on my organizational skills
+                        </li>
+                      </ul>
+                    </p>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col xs={12} md={6} className="mb-4">
+                <Card className="roundedp-4">
+                  <Card.Body>
+                    <h3>Skills</h3>
+                    <p className="paragraph">
+                    These are the various Skills that I used:                     
+                     <ul>
+                        <li>
+                        Communication skills
+                        </li>
+                        <li>
+                        Excel
+                        </li>
+                        <li>
+                        Continuing to work on my organizational skills
+                        </li>
+                      </ul>                     
+                    </p>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </Container>
 
-     </section>
+
+
+      <Container>
+        
+        <Row>
+          <Col xs={12} md={6} xl={5}>
+            {/* <img className="secondPicture" src={placeholder} alt="header" /> */}
+          </Col>
+          <Col xs={12} md={6} xl={7}>
+            {/* Your existing content */}
+          </Col>
+        </Row>
+      </Container>
+      <WorkSkills/>
 
 
 
+    
 
-   );
-};  
+
+    </section>
+  );
+};

@@ -6,9 +6,9 @@ import navIcon2 from '../assets/img/github-mark-white.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
 
-export const NavBar = () => {
+export const NavBarAlt = () => {
 
-  const [activeLink, setActiveLink] = useState('home');
+  const [activeLink, setActiveLink] = useState('workterm');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export const NavBar = () => {
     }
 
     window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll); 
+    return () => window.removeEventListener("scroll", onScroll);
   }, [])
 
   const onUpdateActiveLink = (value) => {
@@ -39,9 +39,7 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#workterm" className={activeLink === 'workterm' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermS23</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">

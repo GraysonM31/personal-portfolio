@@ -1,16 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import softwareImage from "../assets/img/softwareIMG.svg"
-// import meter2 from "../assets/img/meter2.svg"
-// import meter3 from "../assets/img/meter3.svg"
-// import colorSharp from "../assets/img/color-sharp.png"
-// import Cicon from "../assets/img/Icon/C-icon.svg"
-// import htmlIcon from "../assets/img/Icon/html-icon.svg"
-// import pythonIcon from "../assets/img/Icon/python-icon.svg"
-
-
-
 
 
 

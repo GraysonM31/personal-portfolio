@@ -1,12 +1,9 @@
 import React from 'react';
 import { Container, Col, Row, Tab, Nav } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard'; // Assuming you have this component defined
-// import colorSharp2 from '../assets/img/color-sharp2.png';
 import logo1 from '../assets/img/chemistry.png';
 import logo2 from '../assets/img/automation.png';
 import logo3 from '../assets/img/data.png';
-// import logo4 from '../assets/img/web.png';
-
 
 export const Projects = () => {
   const projectsArr = [
@@ -14,25 +11,20 @@ export const Projects = () => {
       title: 'Molecule Modeling Project',
       description: 'Full stack project to create custom SVG files of a Molecule from a given .SDF file',
       imgUrl: logo1,
+      url: '', 
     },
     {
       title: 'Covid-19 Data Project',
       description: 'Using Pandas and Matplotlib libraries to extrapolate data about the Covid-19 pandemic from a CSV file',
       imgUrl: logo2,
+      url: '', 
     },
     {
       title: 'Covid-19 Screening Form Automation',
       description: 'Using Selenium in python to automatically complete the University of Guelph Covid-19 screening form',
       imgUrl: logo3,
+      url: '', 
     },
-
-//     {
-//      title: 'Web Scraping Project',
-//      description: 'Personal project',
-//      imgUrl: logo4,
-//    },
-
-
   ];
 
   return (
@@ -44,7 +36,6 @@ export const Projects = () => {
             <p className="text-center">Hover for more details</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                {/* You can add more tabs here if needed */}
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
@@ -56,7 +47,6 @@ export const Projects = () => {
                     ))}
                   </Row>
                 </Tab.Pane>
-                {/* You can add more Tab.Pane elements for different categories */}
               </Tab.Content>
             </Tab.Container>
           </Col>

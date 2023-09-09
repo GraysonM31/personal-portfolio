@@ -4,7 +4,7 @@ import logo from "../assets/img/Logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github-mark-white.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import { Link } from "react-router-dom"; // Import the Link component
+import { Link } from "react-router-dom";
 
 
 export const Footer = () => {
@@ -21,7 +21,7 @@ export const Footer = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                {/* <Link to="/workreport">Work Report</Link> */}
+                <Link to="/workreport">Work Report</Link>
               </li>
             </ul>
           </div>

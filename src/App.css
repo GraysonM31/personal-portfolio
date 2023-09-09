@@ -280,8 +280,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner p {
   color: #a8a7a7;
   font-size: 18px;
-  text-align: center;
-  letter-spacing: 0.8px;
+  text-align: justify;
+  letter-spacing: 0.6px;
+  word-spacing: 0.1px;
   line-height: 1.5em;
   width: 96%;
 }
@@ -497,12 +498,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
+
+
+
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
+
+.proj-txtx a{
+  text-align: center;
+  display: block; /* Make the link a block element to center it horizontally */
+  margin-top: 10px; 
+  color: black; 
+}
+
+
+.proj-txtx a:hover {
+  color: white; 
+}
+
+
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
@@ -588,6 +607,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: repeat-x;
 }
 
+
+
 .banner-workterm  h1 {
   font-size: 75px;
   font-weight: 700;
@@ -599,6 +620,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner-workterm  h2 {
+  color: #a8a7a7;
   font-size: 45px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -608,11 +630,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: left;
 }
 
+.banner-workterm h3{
+  color: #1d1d1d
+}
+
+
+.banner-workterm h4{
+  color: #ffffff
+}
+
 .banner-workterm  p {
+  text-align: left;
   color: #a8a7a7;
   border: #fff;
   border-radius: 15px;
-  text-align: left;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -626,6 +657,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+}
+
+.banner-workterm .roundedp-4{
+  height: 300px;
+  background-color: #555555;
+
+
+}
+
+.banner-workterm ul{
+  text-align: left;
 }
 
 

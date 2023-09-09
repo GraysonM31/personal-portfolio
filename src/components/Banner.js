@@ -1,8 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/memoji.PNG";
-// import { useState, useEffect } from "react";
-// import Spline from '@splinetool/react-spline';
+
 
 export const Banner = () => {
 
@@ -15,7 +14,6 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            {/* <span className="tagline">Did you pray today? cuz if you didn't...</span> */}
             <h1>{"Hi👋,"}</h1>
             <h2>{"I'm Grayson Mongru"}</h2>
             <span className="wrap">{""}</span>
@@ -28,11 +26,6 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="header" />
-            {/* <Spline scene="https://prod.spline.design/jbUxMssMYB6KbRw1/scene.splinecode" /> */}
-            {/* <Spline scene="https://prod.spline.design/u0E5dDoW2hJe2pdg/scene.splinecode" /> */}
-            {/* <Spline scene="https://prod.spline.design/roE6iyeF8XlFvRY3/scene.splinecode"/> */}
-            {/* <Spline scene="https://prod.spline.design/Xz13smKR7Duzeckt/scene.splinecode" backgroundColor="transparent" /> */}
-            {/* <p>Play some Jenga</p> */}
           </Col>
         </Row>
       </Container>
