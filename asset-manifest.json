@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1349de74.css",
-    "main.js": "/static/js/main.e9855b55.js",
+    "main.css": "/static/css/main.cb8a9e8b.css",
+    "main.js": "/static/js/main.fb63fcc0.js",
     "static/js/27.e926acfc.chunk.js": "/static/js/27.e926acfc.chunk.js",
+    "static/media/sharepointHomePage.png": "/static/media/sharepointHomePage.f83e3478cecadcb7e7e0.png",
     "static/media/memoji.PNG": "/static/media/memoji.cc702933ee733728b8aa.PNG",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/automation.png": "/static/media/automation.5c71914163b6c86409c0.png",
     "static/media/data.png": "/static/media/data.181eedcf01ebbce4e53f.png",
+    "static/media/excel.png": "/static/media/excel.f7ad53809690a1807fa6.png",
     "static/media/chemistry.png": "/static/media/chemistry.f742999582fbb98239fb.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -19,7 +21,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.1349de74.css",
-    "static/js/main.e9855b55.js"
+    "static/css/main.cb8a9e8b.css",
+    "static/js/main.fb63fcc0.js"
   ]
 }
