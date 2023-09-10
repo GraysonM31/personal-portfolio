@@ -44,18 +44,18 @@ export const WorkSkills = () => {
                 <div className="item">
                   <h4>Status Reporting</h4>
                   <p>
-                  Learned the basics of status reporting, including color coding based on importance and following up with the project manager to ensure timely updates.
+                  During my co-op, I gained valuable insights into status reporting. This encompassed a comprehensive understanding of the significance of timely and effective communication within a project team. I learned to discern the critical aspects of status updates and how the overall color coding system worked.
                   </p>
                 </div>
                 <div className="item">
                   <h4>Time Management</h4>
                   <p>
-                  I believe that possessing strong time management abilities will be crucial for my future professional endeavors. My initial Co-op experience helped me to recognize the significance of time management, not just on a personal level, but also within an organization.                  </p>
+                  I believe that possessing strong time management abilities will be crucial for my future professional endeavors. My initial Co-op experience helped me to recognize the significance of time management, not just on a personal level, but also within an organization.</p>
                 </div>
                 <div className="item">
                   <h4>Raid Logs</h4>
                   <p>
-                    During my co-op, I gained valuable experience in managing RAID logs. These logs are crucial in project management as they help identify and address potential risks, track assumptions made during project planning, manage and resolve issues as they arise, and keep track of project dependencies. I learned how to effectively update and maintain RAID logs, ensuring that all project stakeholders were well-informed about any potential challenges and dependencies.
+                    During my co-op, I gained valuable experience in managing RAID logs. These logs are crucial in project management as they help identify and address potential risks, track assumptions made during project planning, manage and resolve issues as they arise, and keep track of project dependencies. I learned how to effectively update and maintain RAID logs, ensuring that team was up to date.
                   </p>
                 </div>
                 <div className="item">

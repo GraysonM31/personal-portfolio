@@ -53,19 +53,19 @@ export const WorkReport = () => {
                   <Card.Body>
                     <h3>Job Description</h3>
                     <p className="paragraph">
-                      Day to day I was responsible for PCO work. This included
+                      Day to day I was responsible for PCO work. This included:
                       <ul>
                         <li>
-                          Meeting Minutes
+                          <strong>Meeting Minutes</strong>
                         </li>
                         <li>
-                          Status Reporting
+                          <strong>Status Reporting</strong>
                         </li>
                         <li>
-                          Raid logs
+                          <strong>Raid logs</strong>
                         </li>
                         <li>
-                          Attending all meetings
+                          <strong>Attending all meetings</strong>
                         </li>
                       </ul>
                     </p>
@@ -80,13 +80,13 @@ export const WorkReport = () => {
                     At the start of my work term, I established three clear learning objectives.                     
                      <ul>
                         <li>
-                        Asking more questions when necessary
+                        <strong>Asking more questions when necessary</strong>
                         </li>
                         <li>
-                        Improving my Excel skills
+                        <strong>Improving my Excel Skills</strong>
                         </li>
                         <li>
-                        Continuing to work on my organizational skills
+                        <strong>Continuing to work on my organizational Skills</strong>
                         </li>
                       </ul>
                     </p>
@@ -96,21 +96,21 @@ export const WorkReport = () => {
               <Col xs={12} md={6} className="mb-4">
                 <Card className="roundedp-4">
                   <Card.Body>
-                    <h3>Skills</h3>
-                    <p className="paragraph">
-                    These are the various Skills that I used:                     
-                     <ul>
-                        <li>
-                        Communication skills
-                        </li>
-                        <li>
-                        Excel
-                        </li>
-                        <li>
-                        Continuing to work on my organizational skills
-                        </li>
-                      </ul>                     
-                    </p>
+                  <h3>Skills</h3>
+                  <p className="paragraph">
+                    Throughout my co-op, I had the opportunity to develop and refine a wide range of skills that are essential in any professional setting.
+                    <ul>
+                      <li>
+                        <strong>Communication Skills</strong>
+                      </li>
+                      <li>
+                        <strong>Project management Skills</strong> 
+                      </li>
+                      <li>
+                        <strong>Organizational Skills</strong>
+                      </li>
+                    </ul>
+                  </p>
                   </Card.Body>
                 </Card>
               </Col>
