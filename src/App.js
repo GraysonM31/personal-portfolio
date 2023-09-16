@@ -19,7 +19,6 @@ function App() {
           <Route path='/' element={<>  <NavBar /> <Banner />a
             <Skills />
             <Projects /></>} />
-
           <Route path="/workreport" element={ <> <NavBarAlt/> <WorkReport />  </>} />
         </Routes>
         <Footer />
