@@ -40,6 +40,7 @@ export const NavBarAlt = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#workterm" className={activeLink === 'workterm' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermS23</Nav.Link>
+              <Nav.Link href="#worktermf23" className={activeLink === 'worktermf23' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermF23</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">

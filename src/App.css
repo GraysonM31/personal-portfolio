@@ -643,8 +643,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: left;
   color: #a8a7a7;
   border: #fff;
-  border-radius: 15px;
-  font-size: 18px;
+  border-radius: 20px;
+  font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
