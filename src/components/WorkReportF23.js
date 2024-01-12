@@ -64,9 +64,6 @@ export const WorkReportF23 = () => {
                         <li>
                           <strong>Fixing bugs and adding features to the test suite</strong>
                         </li>
-                        <li>
-                          <strong>placeholder</strong>
-                        </li>
                       </ul>
                     </p>
                   </Card.Body>
@@ -98,7 +95,7 @@ export const WorkReportF23 = () => {
                   <Card.Body>
                   <h3>Skills</h3>
                   <p className="paragraph">
-                    I had the opportunity to develop and refine a wide range of skills that are essential in any professional setting.
+                    I had the opportunity to develop and refine a wide range of new skills that are transferable to my next Co-op.
                     <ul>
                       <li>
                         <strong>Problem solving skills</strong>
