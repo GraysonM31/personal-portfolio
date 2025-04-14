@@ -11,6 +11,7 @@ import { Footer } from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { WorkReport } from "./components/WorkReport"
 import { WorkReportF23 } from "./components/WorkReportF23";
+import { WorkReportS24 } from "./components/WorkReportS24";
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
         <Routes>
           <Route path='/' element={<>  <NavBar /> <Banner />a
             <Skills />
-            <Projects /></>} />
-          <Route path="/workreport" element={ <> <NavBarAlt/> <WorkReport /> <WorkReportF23/> </>} />
+            <Projects /> </>} />
+          <Route path="/workreport" element={ <> <NavBarAlt/> <WorkReport />   <WorkReportF23/> <WorkReportS24/>  </>} />
         </Routes>
         <Footer />
       </Router>

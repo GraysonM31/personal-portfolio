@@ -1,28 +1,70 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import headerImg from "../assets/img/CooperatorsLogo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import headoffice from "../assets/img/cooperators-headoffice.jpg";
-// import { WorkSkills } from './components/WorkSkills'
-import {WorkSkillsF23} from './WorkSkillsF23'
+import onLogo from "../assets/img/OL.png";
+import { WorkSkillsS24 } from "./WorkSkillsS24";
+import office from "../assets/img/office-mnr.jpg";
+
+
+function DemoWebsite() {
+    return (
+      <Container>
+        <h3>Bear Wise Proof of Concept</h3>
+        <Row>
+          <Col xs={12} md={6} xl={5}>
+            <Card className="rounded p-4 mb-4">
+              <Card.Body>
+                <h3>Website Demo</h3>
+                <p className="paragraph">
+                  This is a demonstration of the bear incident and tracking application that I developed to replace a legacy system. The application is designed to be user-friendly and efficient in tracking bear incidents.
+                </p>
+                <a href="http://birta-v2.azurewebsites.net" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                  Visit Website
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={6} xl={7}>
+            <Card className="rounded p-4 mb-4">
+              <Card.Body>
+                <h3>Application Features</h3>
+                <p className="paragraph">
+                  The application includes the following features:
+                  <ul>
+                    <li><strong>Incident Reporting:</strong> Users can report bear incidents with detailed information.</li>
+                    <li><strong>Real-time Tracking:</strong> Track bear movements and incidents in real-time.</li>
+                    <li><strong>Data Analysis:</strong> Analyze incident data to identify patterns and trends.</li>
+                    <li><strong>User Management:</strong> Manage user roles and permissions within the application.</li>
+                  </ul>
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
 
 
 
 
-export const WorkReportF23 = () => {
+
+
+
+export const WorkReportS24 = () => {
   return (
-    <section className="banner-workterm" id="worktermf23">
+    <section className="banner-workterm" id="worktermS24">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <h1>{"Fall 2023 Work Term Report"}</h1>
-            <h2>{"Co-operators - Test Automation"}</h2>
+            <h1>{"Summer 2024 Work Term Report"}</h1>
+            <h2>{"GovTechON - Service Designer"}</h2>
             <span className="wrap"></span>
             <p></p>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <figure>
-              <img src={headerImg} alt="header" />
+              <img src={onLogo} alt="header" />
             </figure>
            
           </Col>
@@ -33,8 +75,8 @@ export const WorkReportF23 = () => {
         <Row>
           <Col xs={12} md={6} xl={5}>
             <figure>
-                <img src={headoffice} alt="header" />
-                <figcaption>Co-operators office downtown Guelph</figcaption>
+                <img src={office} alt="header" />
+                <figcaption>MNR Office in Peterborough</figcaption>
               </figure>
           </Col>
           <Col xs={12} md={6} xl={7}>
@@ -44,7 +86,7 @@ export const WorkReportF23 = () => {
                   <Card.Body>
                     <h3>Overview</h3>
                     <p className="paragraph">
-                    I had the opportunity to serve as a test automation developer. This experience not only allowed me to contribute significantly to the development of automated testing processes but also provided invaluable insights into the management and collaborative aspects of working with a code base.
+                        As a part of the IT2 program I had the opportunity to work as a service design with the government of Ontario Ministry of Natural Resources. This experience taught me how to work with a team to design and implement an IT service that meets the needs of the end user.
                     </p>
                   </Card.Body>
                 </Card>
@@ -57,13 +99,13 @@ export const WorkReportF23 = () => {
                       Day to day I had numerous responsiblities. including:
                       <ul>
                         <li>
-                          <strong>Regression Testing</strong>
+                          <strong>Attend and assist in user workshops</strong>
                         </li>
                         <li>
-                          <strong>Reviewing and modifying datasheets</strong>
+                          <strong>contribute techinical solution to problems</strong>
                         </li>
                         <li>
-                          <strong>Fixing bugs and adding features to the test suite</strong>
+                          <strong>create proof of concept application to replace legacy systems</strong>
                         </li>
                       </ul>
                     </p>
@@ -78,13 +120,13 @@ export const WorkReportF23 = () => {
                     At the start of my work term, I established three clear learning objectives.                     
                      <ul>
                         <li>
-                        <strong>Improve my java coding skills</strong>
+                        <strong>Improve presentation skills</strong>
                         </li>
                         <li>
-                        <strong>Ask more questions during meetings</strong>
+                        <strong>Improve written deliverables </strong>
                         </li>
                         <li>
-                        <strong>Get more comfortable working with version control systems at a professional level (Git & Bitbucket)</strong>
+                        <strong>Learn more about the Azure Cloud Service</strong>
                         </li>
                       </ul>
                     </p>
@@ -108,7 +150,7 @@ export const WorkReportF23 = () => {
                         <strong>Communication Skills</strong>
                       </li>
                       <li>
-                        <strong>Software Automation</strong>
+                        <strong>User requirements gathering</strong>
                       </li>
                     </ul>
                   </p>
@@ -126,18 +168,15 @@ export const WorkReportF23 = () => {
         
         <Row>
           <Col xs={12} md={6} xl={5}>
-            {/* <img className="secondPicture" src={placeholder} alt="header" /> */}
           </Col>
           <Col xs={12} md={6} xl={7}>
-            {/* Your existing content */}
           </Col>
         </Row>
       </Container>
-      <WorkSkillsF23/>
 
-
-
-    
+      <WorkSkillsS24/>
+      
+      <DemoWebsite/>
 
 
     </section>

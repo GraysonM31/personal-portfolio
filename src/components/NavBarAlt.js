@@ -41,6 +41,8 @@ export const NavBarAlt = () => {
             <Nav className="ms-auto">
               <Nav.Link href="#workterm" className={activeLink === 'workterm' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermS23</Nav.Link>
               <Nav.Link href="#worktermf23" className={activeLink === 'worktermf23' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermF23</Nav.Link>
+              <Nav.Link href="#worktermS24" className={activeLink === 'worktermS24' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermS24</Nav.Link>
+
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">

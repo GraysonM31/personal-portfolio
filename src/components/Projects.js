@@ -7,18 +7,21 @@ import logo3 from '../assets/img/data.png';
 
 export const Projects = () => {
   const projectsArr = [
+    
+    {
+      title: 'BIRTA Modernization Project',
+      description: 'Modernizing the BIRTA application using Azure, Firebase, HTML, CSS and JavaScript',
+      imgUrl: logo2,
+      url: 'http://birta-v2.azurewebsites.net/index.html', 
+    },
+    
     {
       title: 'Molecule Modeling Project',
       description: 'Full stack project to create custom SVG files of a Molecule from a given .SDF file',
       imgUrl: logo1,
       url: '', 
     },
-    {
-      title: 'Covid-19 Data Project',
-      description: 'Using Pandas and Matplotlib libraries to extrapolate data about the Covid-19 pandemic from a CSV file',
-      imgUrl: logo2,
-      url: '', 
-    },
+
     {
       title: 'Covid-19 Screening Form Automation',
       description: 'Using Selenium in python to automatically complete the University of Guelph Covid-19 screening form',

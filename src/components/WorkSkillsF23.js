@@ -56,24 +56,7 @@ export const WorkSkillsF23 = () => {
                   During my work term, I delved into the realm of software testing methodologies, gaining invaluable insights into the professional application of these practices. One significant aspect of my role involved actively engaging in regression and pre-release regression testing, where I honed my ability to identify and rectify potential issues before software releases. I delved into the intricacies of unit testing, understanding its pivotal role in ensuring the functionality of isolated components. Embracing various types of software testing best practices became second nature as I navigated the dynamic landscape of quality assurance. This comprehensive exposure not only broadened my understanding of software testing but also equipped me with practical skills to contribute effectively to the development lifecycle.
                   </p>
                 </div>
-                {/* <div className="item">
-                  <h4>SharePoint</h4>
-                  <img
-                    src={officeLogo}
-                    alt="Office-Logo"
-                    style={{maxWidth: 200, maxHeight: 200}}
-                  />
-
-                  
-                </div>
-                <div className="item">
-                  <h4>Excel</h4>
-                  <img
-                    src={excelLogo}
-                    alt="Office-Logo"
-                    style={{ maxWidth: 200, maxHeight: 200 }}
-                  />
-                </div> */}
+            
               </Carousel>
             </div>
           </Col>
