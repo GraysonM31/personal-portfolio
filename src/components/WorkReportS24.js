@@ -9,7 +9,7 @@ import office from "../assets/img/office-mnr.jpg";
 function DemoWebsite() {
     return (
       <Container>
-        <h3>Bear Wise Proof of Concept</h3>
+        <h3 className="text-white"> Bear Wise Proof of Concept</h3>
         <Row>
           <Col xs={12} md={6} xl={5}>
             <Card className="rounded p-4 mb-4">

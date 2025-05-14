@@ -14,7 +14,7 @@ export const WorkReportW25 = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <h1>{"Winter 2025 Work Term Report"}</h1>
-            <h2>{"Purolator Digital Lab"}</h2>
+            <h2>{"Purolator Digital Lab - QA Developer"}</h2>
             <span className="wrap"></span>
           </Col>
           <Col xs={12} md={6} xl={5}>
@@ -76,7 +76,7 @@ export const WorkReportW25 = () => {
               <Card.Body>
                 <h3>Overview</h3>
                 <p className="paragraph">
-                  During my Winter 2025 work term, I worked as a QA Developer Co-op at Purolator's Digital Lab. This role provided me with hands-on experience in quality assurance, software testing, and automation, while collaborating with a dynamic team to ensure the delivery of high-quality software solutions.
+                  During my Winter 2025 work term, I worked as a QA Developer Co-op at Purolator's Digital Lab. This role provided me with hands-on experience in QA, software testing, and development, while collaborating with a dynamic team to ensure the delivery of high-quality software solutions.
                 </p>
               </Card.Body>
             </Card>
@@ -89,9 +89,8 @@ export const WorkReportW25 = () => {
                   My responsibilities as a QA Developer Co-op included:
                   <ul className="text-start">
                     <li>Designing and executing test cases to ensure software functionality and performance.</li>
-                    <li>Developing automated test scripts to streamline the testing process and improve efficiency.</li>
-                    <li>Collaborating with developers and product managers to identify and resolve software defects.</li>
-                    <li>Participating in Agile ceremonies such as sprint planning and retrospectives to align with team goals.</li>
+                    <li>Collaborating with developers to identify and resolve software defects.</li>
+                    <li>Participating in Agile activities such as sprint planning and retrospectives to align with team goals.</li>
                   </ul>
                 </p>
               </Card.Body>
@@ -121,7 +120,7 @@ export const WorkReportW25 = () => {
                 <p className="paragraph">
                   Throughout this work term, I developed and refined several key skills, including:
                   <ul className="text-start">
-                    <li>Test automation: Writing and maintaining automated test scripts to improve testing efficiency.</li>
+                    <li>Testing skills: Writing and maintaining test cases to improve testing efficiency.</li>
                     <li>Problem-solving: Identifying and resolving software defects in a timely manner.</li>
                     <li>Collaboration: Working closely with cross-functional teams to ensure project success.</li>
                     <li>Attention to detail: Ensuring software quality by thoroughly testing all features and functionality.</li>

@@ -41,7 +41,7 @@ export const WorkSkillsW25 = () => {
                 <div className="item">
                   <h4>Testing Methodologies</h4>
                   <p>
-                    Improved my ability to test code effectively by learning unit testing, integration testing, and end-to-end testing. Reviewed and analyzed test cases, wrote unit tests, and identified and resolved bugs in the codebase.
+                    Improved my ability to test code effectively by learning unit testing and end-to-end testing. Reviewed and analyzed test cases, wrote unit tests, and identified and resolved bugs in the codebase.
                   </p>
                 </div>
                 <div className="item">
