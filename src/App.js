@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { WorkReport } from "./components/WorkReport"
 import { WorkReportF23 } from "./components/WorkReportF23";
 import { WorkReportS24 } from "./components/WorkReportS24";
+import { WorkReportW25 } from "./components/WorkReportW25";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path='/' element={<>  <NavBar /> <Banner />a
             <Skills />
             <Projects /> </>} />
-          <Route path="/workreport" element={ <> <NavBarAlt/> <WorkReport />   <WorkReportF23/> <WorkReportS24/>  </>} />
+          <Route path="/workreport" element={ <> <NavBarAlt/> <WorkReport /> <WorkReportF23/> <WorkReportS24/> <WorkReportW25/> </>} />
         </Routes>
         <Footer />
       </Router>

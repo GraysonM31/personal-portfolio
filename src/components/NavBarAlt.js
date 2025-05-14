@@ -42,6 +42,7 @@ export const NavBarAlt = () => {
               <Nav.Link href="#workterm" className={activeLink === 'workterm' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermS23</Nav.Link>
               <Nav.Link href="#worktermf23" className={activeLink === 'worktermf23' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermF23</Nav.Link>
               <Nav.Link href="#worktermS24" className={activeLink === 'worktermS24' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermS24</Nav.Link>
+              <Nav.Link href="#worktermW25" className={activeLink === 'worktermW25' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>WorkTermW25</Nav.Link>
 
             </Nav>
             <span className="navbar-text">
