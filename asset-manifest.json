@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf5fe976.css",
-    "main.js": "/static/js/main.bce93adb.js",
+    "main.js": "/static/js/main.78d2b776.js",
     "static/js/27.e926acfc.chunk.js": "/static/js/27.e926acfc.chunk.js",
     "static/media/WinterCoopEvent-52.jpg": "/static/media/WinterCoopEvent-52.ce12b3434fdba914dee4.jpg",
     "static/media/WinterCoopEvent-17.jpg": "/static/media/WinterCoopEvent-17.d214da99a0104d0f01d1.jpg",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.bf5fe976.css",
-    "static/js/main.bce93adb.js"
+    "static/js/main.78d2b776.js"
   ]
 }
