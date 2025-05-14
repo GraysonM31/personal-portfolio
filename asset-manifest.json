@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.8035b2e6.css",
-    "main.js": "/static/js/main.c0cab7bc.js",
+    "main.css": "/static/css/main.bf5fe976.css",
+    "main.js": "/static/js/main.bce93adb.js",
     "static/js/27.e926acfc.chunk.js": "/static/js/27.e926acfc.chunk.js",
+    "static/media/WinterCoopEvent-52.jpg": "/static/media/WinterCoopEvent-52.ce12b3434fdba914dee4.jpg",
+    "static/media/WinterCoopEvent-17.jpg": "/static/media/WinterCoopEvent-17.d214da99a0104d0f01d1.jpg",
+    "static/media/WinterCoopEvent-01.jpg": "/static/media/WinterCoopEvent-01.db17f1cf1123837bab84.jpg",
     "static/media/office-mnr.jpg": "/static/media/office-mnr.b7e8a2a57edf3995ce03.jpg",
     "static/media/sharepointHomePage.png": "/static/media/sharepointHomePage.f83e3478cecadcb7e7e0.png",
     "static/media/memoji.PNG": "/static/media/memoji.cc702933ee733728b8aa.PNG",
@@ -10,6 +13,7 @@
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/cooperators-headoffice.jpg": "/static/media/cooperators-headoffice.1e708f16311c8e5c10fa.jpg",
+    "static/media/purolator-logo.png": "/static/media/purolator-logo.5628bd5fe664f65d6429.png",
     "static/media/automation.png": "/static/media/automation.5c71914163b6c86409c0.png",
     "static/media/data.png": "/static/media/data.181eedcf01ebbce4e53f.png",
     "static/media/OL.png": "/static/media/OL.ac0ff23e943b7b9c3ae3.png",
@@ -24,7 +28,7 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg"
   },
   "entrypoints": [
-    "static/css/main.8035b2e6.css",
-    "static/js/main.c0cab7bc.js"
+    "static/css/main.bf5fe976.css",
+    "static/js/main.bce93adb.js"
   ]
 }
