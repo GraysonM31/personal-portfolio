@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf5fe976.css",
-    "main.js": "/static/js/main.78d2b776.js",
-    "static/js/27.e926acfc.chunk.js": "/static/js/27.e926acfc.chunk.js",
+    "main.css": "/static/css/main.7c1ac40b.css",
+    "main.js": "/static/js/main.1f68c15d.js",
+    "static/js/27.5f5c417c.chunk.js": "/static/js/27.5f5c417c.chunk.js",
     "static/media/WinterCoopEvent-52.jpg": "/static/media/WinterCoopEvent-52.ce12b3434fdba914dee4.jpg",
     "static/media/WinterCoopEvent-17.jpg": "/static/media/WinterCoopEvent-17.d214da99a0104d0f01d1.jpg",
     "static/media/WinterCoopEvent-01.jpg": "/static/media/WinterCoopEvent-01.db17f1cf1123837bab84.jpg",
@@ -16,19 +16,16 @@
     "static/media/purolator-logo.png": "/static/media/purolator-logo.5628bd5fe664f65d6429.png",
     "static/media/automation.png": "/static/media/automation.5c71914163b6c86409c0.png",
     "static/media/data.png": "/static/media/data.181eedcf01ebbce4e53f.png",
+    "static/media/allianceIT-logo.png": "/static/media/allianceIT-logo.96aaecba52724ba03585.png",
     "static/media/OL.png": "/static/media/OL.ac0ff23e943b7b9c3ae3.png",
-    "static/media/excel.png": "/static/media/excel.f7ad53809690a1807fa6.png",
     "static/media/chemistry.png": "/static/media/chemistry.f742999582fbb98239fb.png",
-    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
     "static/media/github-mark-white.svg": "/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg"
   },
   "entrypoints": [
-    "static/css/main.bf5fe976.css",
-    "static/js/main.78d2b776.js"
+    "static/css/main.7c1ac40b.css",
+    "static/js/main.1f68c15d.js"
   ]
 }
