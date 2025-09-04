@@ -82,7 +82,7 @@ export const WorkReportS24 = () => {
           <Col xs={12} md={6} xl={7}>
             <Row>
               <Col xs={12} md={6} className="mb-4">
-                <Card className="roundedp-4">
+                <Card className="rounded p-4">
                   <Card.Body>
                     <h3>Overview</h3>
                     <p className="paragraph">
@@ -92,7 +92,7 @@ export const WorkReportS24 = () => {
                 </Card>
               </Col>
               <Col xs={12} md={6} className="mb-4">
-                <Card className="roundedp-4">
+                <Card className="rounded p-4">
                   <Card.Body>
                     <h3>Job Description</h3>
                     <p className="paragraph">
@@ -102,10 +102,10 @@ export const WorkReportS24 = () => {
                           <strong>Attend and assist in user workshops</strong>
                         </li>
                         <li>
-                          <strong>contribute techinical solution to problems</strong>
+                          <strong>Contribute technical solution to problems</strong>
                         </li>
                         <li>
-                          <strong>create proof of concept application to replace legacy systems</strong>
+                          <strong>Create proof of concept application to replace legacy systems</strong>
                         </li>
                       </ul>
                     </p>
